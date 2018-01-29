@@ -4,7 +4,6 @@
 \.DS_Store
 \.idea
 \.project
-
 \.vagrant
 bower_components
 node_modules
@@ -15,5 +14,8 @@ jmeter.log
 config/local*
 
 # Build
+lib
+dist
+demo/stats
 coverage
 .nyc_output
