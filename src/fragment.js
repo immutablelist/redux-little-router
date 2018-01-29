@@ -1,7 +1,8 @@
 // @flow
 import type { Location } from 'history';
 
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import matchCache from './match-cache';
 import generateId from './util/generate-id';
 

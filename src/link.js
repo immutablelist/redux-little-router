@@ -2,8 +2,8 @@
 import type { LocationDescriptor } from 'history';
 import type { RouterContext } from './provider';
 
-import React, { Component, PropTypes } from 'react';
-
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { PUSH, REPLACE } from './action-types';
 import defaultCreateLocation from './util/create-location';
 
