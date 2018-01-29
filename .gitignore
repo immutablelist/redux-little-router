@@ -15,7 +15,5 @@ config/local*
 
 # Build
 lib
-dist
-demo/stats
 coverage
 .nyc_output
